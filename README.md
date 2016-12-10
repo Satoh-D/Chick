@@ -1,4 +1,4 @@
-# SublimeEsaIo
+# Chick
 
 A [Sublime Text 3](http://www.sublimetext.com/) plugin for [esa.io](https://esa.io/).
 
@@ -7,9 +7,9 @@ A [Sublime Text 3](http://www.sublimetext.com/) plugin for [esa.io](https://esa.
 ### Manual installation
 
 1. Find "Package Control: Add Repository" in Command Pallete.
-2. Input "https://github.com/Satoh-D/SublimeEsaIo".
+2. Input "https://github.com/Satoh-D/Chick".
 3. Find "Package Control: Install Package" in Command Pallete.
-4. Select "SublimeEsaIo".
+4. Select "Chick".
 
 ## Generating Access Token
 
@@ -43,7 +43,7 @@ All functionality of the plugin is available in the command pallette.
 
 ### Creating Document(Save as WIP / Ship It!)
 
-Use the `SublimeEsaIo` / `EsaIo` or `SublimeEsaIo` / `EsaIoShip` commands.  
+Use the `Chick` / `EsaIo` or `Chick` / `EsaIoShip` commands.  
 A EsaIo will be created with contents of current file, URL of that document will be copied to the clipboard.
 
 

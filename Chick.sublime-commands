@@ -1,0 +1,10 @@
+[
+  {
+    "caption": "Chick: Create Document (Save as WIP)",
+    "command": "esa_io"
+  },
+  {
+    "caption": "Chick: Create Document (Ship It!)",
+    "command": "esa_io_ship"
+  }
+]

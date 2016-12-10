@@ -59,7 +59,7 @@ class EsaIoCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
         # プラグインの設定ファイル読み込み
-        settings = sublime.load_settings('SublimeEsaIo.sublime-settings')
+        settings = sublime.load_settings('Chick.sublime-settings')
 
         if not settings.get('token') or not settings.get('team'):
             sublime.status_message('CAUTION: You must enter your access token and joining team.')
@@ -94,7 +94,6 @@ class EsaIoCommand(sublime_plugin.TextCommand):
 
         # Esa.ioに登録するドキュメントタイトルを入力させる
         window.show_input_panel('Document Title(on Esa.io) (Required):', '', on_create_document, None, None)
-        # on_create_document('Test/SublimeEsaIo/requesttest06 #foo #bar #sublimeEsaIo')
 
 
 class EsaIoShipCommand(EsaIoCommand):
